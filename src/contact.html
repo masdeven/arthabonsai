@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Artha Bonsai</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #a8a29e;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #8b807b;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <div id="navbar-placeholder"></div>
+
+    <main>
+      <section class="bg-gray-50 pt-32 pb-16 text-center">
+        <div class="container mx-auto px-6">
+          <h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-4">
+            Get in Touch
+          </h1>
+          <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+            We'd love to hear from you. Whether you have a question about our
+            bonsai, pricing, or anything else, our team is ready to answer all
+            your questions.
+          </p>
+        </div>
+      </section>
+
+      <section class="py-20 bg-white">
+        <div
+          class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12"
+        >
+          <div
+            class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200"
+          >
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">
+              Send Us a Message
+            </h2>
+            <form action="#" method="POST" class="space-y-6">
+              <div>
+                <label
+                  for="name"
+                  class="block text-lg font-medium text-gray-700"
+                  >Full Name</label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  class="mt-2 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div>
+                <label
+                  for="email"
+                  class="block text-lg font-medium text-gray-700"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="mt-2 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div>
+                <label
+                  for="message"
+                  class="block text-lg font-medium text-gray-700"
+                  >Message</label
+                >
+                <textarea
+                  name="message"
+                  id="message"
+                  rows="5"
+                  class="mt-2 block w-full px-4 py-3 border border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500"
+                  placeholder="How can we help you?"
+                ></textarea>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="w-full bg-green-600 text-white px-8 py-3 rounded-md font-semibold text-lg hover:bg-green-700 transition duration-300 shadow-md"
+                >
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="space-y-8">
+            <div
+              class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200"
+            >
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                Contact Information
+              </h3>
+              <div class="space-y-4 text-lg text-gray-600">
+                <p class="flex items-start">
+                  <i class="fas fa-map-marker-alt w-6 text-green-600 mt-1"></i>
+                  <span class="ml-4"
+                    >Jl. Bukit Berbunga No.01, Sidomulyo, Kec. Batu, Kota Batu,
+                    Jawa Timur 65317</span
+                  >
+                </p>
+                <p class="flex items-center">
+                  <i class="fas fa-phone w-6 text-green-600"></i>
+                  <span class="ml-4">(+62) 812-3456-7890</span>
+                </p>
+                <p class="flex items-center">
+                  <i class="fas fa-envelope w-6 text-green-600"></i>
+                  <span class="ml-4">contact@arthabonsai.com</span>
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200"
+            >
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                Opening Hours
+              </h3>
+              <div class="space-y-2 text-lg text-gray-600">
+                <p class="flex justify-between">
+                  <span>Monday - Friday</span> <span>08:00 – 16:00</span>
+                </p>
+                <p class="flex justify-between">
+                  <span>Saturday</span> <span>09:00 – 14:00</span>
+                </p>
+                <p class="flex justify-between">
+                  <span>Sunday</span>
+                  <span class="font-semibold text-red-600">Closed</span>
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200"
+            >
+              <h3 class="text-2xl font-bold text-gray-800 mb-4">Follow Us</h3>
+              <div class="flex space-x-6 text-3xl">
+                <a
+                  href="#"
+                  class="text-gray-500 hover:text-green-600 transition duration-300"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a
+                  href="#"
+                  class="text-gray-500 hover:text-green-600 transition duration-300"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="#"
+                  class="text-gray-500 hover:text-green-600 transition duration-300"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full h-[500px] bg-gray-200">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.685351325143!2d112.53123531477759!3d-7.917909794276711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788094b8e8b2b7%3A0x6a5e1c0c6e0c6e0c!2sJl.%20Bukit%20Berbunga%20No.1%2C%20Sidomulyo%2C%20Kec.%20Batu%2C%20Kota%20Batu%2C%20Jawa%20Timur%2065317!5e0!3m2!1sen!2sid!4v1678901234567!5m2!1sen!2sid"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
